@@ -13,12 +13,14 @@ public class HelloWorldAction extends Action{
 	public ActionForward execute(ActionMapping mapping,ActionForm form,
 			HttpServletRequest request,HttpServletResponse response)
 	        throws Exception {
+		DatosFormulario datos = (DatosFormulario) form;
+		/*
 		String texto= request.getParameter("texto");
 		String nombre= request.getParameter("nombre");
 		HttpSession session=request.getSession(true);
 		session.setAttribute("texto", texto);
 		session.setAttribute("nombre", nombre);
-	
+		 */
 			return mapping.findForward("success");
 		}
 }

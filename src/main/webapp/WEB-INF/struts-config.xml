@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <struts-config>
+<form-beans>
+	<form-bean name="DatosFormulario" 
+		type="es.open4job.struts.DatosFormulario"/>
+	</form-beans>
+ 
 	<action-mappings>
 	   <action path="/helloWorld"
-		type="es.open4job.struts.HelloWorldAction">
+		type="es.open4job.struts.HelloWorldAction"
+		 name="DatosFormulario" input="/error.jsp">
 		<forward name="success" path="/hola.jsp"/>
 	   </action>
 	</action-mappings>
