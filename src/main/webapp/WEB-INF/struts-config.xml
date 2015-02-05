@@ -3,7 +3,7 @@
 	<action-mappings>
 	   <action path="/helloWorld"
 		type="es.open4job.struts.HelloWorldAction">
-		<forward name="success" path="/index.jsp"/>
+		<forward name="success" path="/hola.jsp"/>
 	   </action>
 	</action-mappings>
 </struts-config>
