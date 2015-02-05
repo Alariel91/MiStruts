@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+	<action-mappings>
+	   <action path="/helloWorld"
+		type="es.open4job.struts.HelloWorldAction">
+		<forward name="success" path="/index.jsp"/>
+	   </action>
+	</action-mappings>
+</struts-config>
