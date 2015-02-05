@@ -1,0 +1,2 @@
+# MiStruts
+Proyecto utilizando Struts
