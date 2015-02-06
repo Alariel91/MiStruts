@@ -18,4 +18,6 @@
 		<forward name="success" path="/hola.jsp"/>
 	   </action>
 	</action-mappings>
+	<message-resources
+		parameter="es.open4job.common.properties.Common" />
 </struts-config>
